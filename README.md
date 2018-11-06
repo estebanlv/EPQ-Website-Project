@@ -1,7 +1,8 @@
 # Extended-project-v.2
 
 Things to do: 
-- Finish Project Proposal Form -- Done
-- Update the activity log -- Done
-- Fix the research
-- Update the Sources document -- Done
+- Fix the research (~1200 words)
+- Do the Development Document (~1000 words)
+- Finish the Presentation
+- Update the 'About us page' with more info
+- Decorate the website
