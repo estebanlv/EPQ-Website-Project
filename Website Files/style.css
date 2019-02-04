@@ -1,45 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body{
+  /*The code below set the basic values for all of the html document*/
   height: 100%;
   width: 100%;
+  /*This will be the basic font of the website*/
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
 
+/*The code below sets the position of the logo to the left*/
 .navbar-brand{
   padding-left: 3rem;
 }
+/*The code below set the base values of the buttons in the navigation bar*/
 .navbar{
   padding: .1rem;
 }
-
+/*Code below places all of the buttons to the right */
 .navbar-nav{
   padding-right: 50px;
 }
-
+/*Code below sets the size of the font when the button is active*/
 .nav-link{
   font-size: 1.1em !important;
 }
 
 .carousel-inner img{
+  /*Sets the size of the image in the carousel*/
   width: 100%;
   height: 100%;
 }
 
 .carousel-caption{
+  /*Places the text in the slide on the middle of it*/
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .carousel-caption h1{
+  /*Sets the base values of the text in the slide*/
   font-size: 500%;
+  /*Transforms all the text to uppercase*/
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
 
 .carousel-caption h3{
+  /*Sets the base values for the text information in the carousel*/
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
@@ -47,11 +56,13 @@ html, body{
 }
 
 .btn-primary{
+  /*Sets the basic color of a button*/
   background-color: #6648b1;
   border: 1px solid #6648b1;
 }
 
 .btn-primary:hover{
+  /*Sets the color of a button when the mouse is hovering over it*/
   background-color: #563d7c;
   border: 1px solid #563d7c;
 }
@@ -68,18 +79,21 @@ html, body{
 }
 
 .welcome{
+  /*Sets the basic values of the welcome sevtion*/
   width: 75%;
   margin: 0 auto;
   padding-top: 1rem;
 }
 
 .welcome hr{
+  /*Creates the box of the for the welcome section*/
   border-top: 2px solid #b4b4b4;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
 
+/*All of the .fa code below set the colors to the icons*/
 .fa-code{
   color: #e54d26;
 }
@@ -98,6 +112,7 @@ html, body{
 }
 
 .fun{
+  /*sets the basic values for the fun section*/
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -106,6 +121,7 @@ html, body{
   max-width: 100%;
 }
 
+/*The code below sets the color of the social media icons displayed on the website*/
 .social a{
   font-size: 4.5em;
   padding: 3rem;
@@ -131,11 +147,13 @@ html, body{
   color: #bb0000;
 }
 
+/*Sets the colors of the social media icons when the mouse is hovering over it*/
 .fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-youtube:hover{
   color: #d5d5d5;
 }
 
 footer{
+  /*Cretes the background color of the footer section*/
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
@@ -224,6 +242,7 @@ hr.light-100{
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
+  /*Solves the problem that makes firefox not work while opening the page */
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
@@ -246,6 +265,7 @@ figure {
   height: 100%;
 }
 #fixed {
+  /*Image of the background is set here*/
   background-image: url('img/back.jpg');
   position: fixed;
   display: block;

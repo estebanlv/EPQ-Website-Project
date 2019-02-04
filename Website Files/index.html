@@ -3,12 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
+	<title>Study StudySesh</title> <!-- This will make the title of the page appear as StudySesh -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- The scripts below help the website be style with different fonts and shapes -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!-- The script below help me shape the website in different ways by implementing bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- The line below connects the css stylesheet to this html document so I can design the website -->
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -22,13 +25,13 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
+				<li class="nav-item active"> <!-- Creates a button that connects this page with the home page -->
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item"> <!-- Creates a button that connects this page to the material's page -->
 					<a class="nav-link" href="material.html">Material</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item">	<!-- Creates a button that connects this page with the about us page -->
 					<a class="nav-link" href="aboutus.html">About Us</a>
 				</li>
 			</ul>
@@ -39,10 +42,13 @@
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
+		<!-- This code creates 3 slides for the carousel -->
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
 		<li data-target="#slides" data-slide-to="1"></li>
 		<li data-target="#slides" data-slide-to="2"></li>
 	</ul>
+	<!-- The code below creates the main slide of the carousel -->
+	<!-- it will slide of every 3 seconds or when the user changes slides manually -->
 	<div class="carousel-inner">
 		<div class="carousel-item active">
 			<img src="img/background4.png">
@@ -52,17 +58,21 @@
 				<a href="aboutus.html"><button type="button" class="btn btn-outline-light btn-lg">About Us></button></a>
 			</div>
 		</div>
+		<!-- The code below creates the second image in the carousel -->
 		<div class="carousel-item">
 			<img src="img/background4.png">
 			<div class="carousel-caption">
 				<h1 class="display-2">StudySesh</h1>
 				<h3>Materials that help with GCSE revision</h3>
+				<!-- Created a button that links the user to the materials page -->
 				<a href="material.html"><button type="button" class="btn btn-outline-light btn-lg">Materials></button></a>
 			</div>
 		</div>
+		<!-- The code below creates the third and final image of the carousel -->
 		<div class="carousel-item">
 			<img src="img/twitterback.jpg">
 			<div class="carousel-caption">
+				<!-- The twitter will be available once the website is launched to the public -->
 				<h1 class="display-2">StudySesh</h1>
 				<h3>Follow Us on Twitter! *Coming up on launch</h3>
 				<div class="col-12 social padding">
@@ -76,6 +86,8 @@
 <!--- Jumbotron -->
 <div class="container-fluid">
 	<div class="row jumbotron">
+		<!-- This section in created to add additional information to the website -->
+		<!-- In this case the jumbotron advertises the materials section to the user -->
 		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
 			<p class="lead">In need for revision notes. Go straight to the materials section!</p>
 		</div>
@@ -99,7 +111,8 @@
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-				<!---<i class="fas fa-code"></i>-->
+				<!-- Listed below are all the maths topics that the material section has -->
+				<!-- Created this section so the user has an idea of what the page is about -->
 				<h3>Maths</h3>
 				<p>- Algebra: wide range of notes and formulas.</p>
 				<p>- Past papers from all the exam boards.</p>
@@ -108,7 +121,7 @@
 				<p>- And more</p>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4">
-				<!---<i class="fas fa-bold"></i>-->
+				<!-- Listed below are all the english topics that the material section has -->
 				<h3>English</h3>
 				<p>- Language: variety of flash cards and notes for the exam</p>
 				<p>- Useful exam vocabulary flash cards</p>
@@ -117,7 +130,7 @@
 				<p>- And more</p>
 		</div>
 		<div class="col-sm-12 col-md-4">
-			<!---	<i class="fab fa-css3"></i>-->
+				<!-- Listed below are all the science topics that the material section has -->
 				<h3>Science</h3>
 				<p>- Physics: Notes for topics P1 to P4</p>
 				<p>- Chemistry: Notes for topics C1 to C4</p>
@@ -129,35 +142,25 @@
 	<hr class="my-4">
 </div>
 
-<!--- Two Column Section --><!---
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-lg-6">
-			<h2>The Shop</h2>
-			<p>'Information of the shop'</p>
-			<br>
-			<a href="#" class="btn btn-primary">Shop</a>
-		</div>
-		<div class="col-lg-6">
-			<img src="img/desk.png" class="img-fluid">
-		</div>
-	</div>
-</div>
--->
-<!--- Emoji Section -->
+<!--- Games Section -->
+<!--- This section will contain a dropdown menu with buttons that can be accesed by the user -->
 <button class="fun" data-toggle="collapse" data-target="#emoji">Click for Revision Games</button>
 <div id="emoji" class="collapse">
 	<div class="container-fluid padding">
 		<div class="row text-center">
+			<!--- This code below will create a button containing a link to maths games -->
 			<div class="col-sm-6 col-md-3">
 				<a href="https://www.cgpbooks.co.uk/interactive_gcse_maths" class="btn btn-primary">Maths Games</a>
 			</div>
+			<!--- This code below will create a button containing a link to science games -->
 			<div class="col-sm-6 col-md-3">
 				<a href="https://www.cgpbooks.co.uk/interactive_gcse_science" class="btn btn-primary">Science Games</a>
 			</div>
+			<!--- This code below will create a button containing a link to english games -->
 			<div class="col-sm-6 col-md-3">
 				<a href="https://www.cgpbooks.co.uk/interactive_gcse_english" class="btn btn-primary">English Games</a>
 			</div>
+			<!--- This code below will create a button containing a link to Quizzes -->
 			<div class="col-sm-6 col-md-3">
 				<a href="https://www.sporcle.com/games/tags/gcse" class="btn btn-primary">Quizzes</a>
 			</div>
@@ -168,6 +171,7 @@
 <div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
+			<!--- This will create a single heading to present the creator -->
 			<h1 class="display-4">Meet the Creator</h1>
 		</div>
 		<hr>
@@ -181,11 +185,12 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
+				<!--- an image of me will be added to the website -->
 				<img class="card-img-top" src="img/esteban.jpg">
 				<div class="card-body">
+					<!--- Information about myself as the creator of StudySesh -->
 					<h4 class="card-title">Esteban Lanza</h4>
 					<p class="card-text">Esteban Lanza is the owner and creator of StudySesh. He is a college student currently going to Peter Symonds. His idea to create StudySesh developed when he decided to take an Extended Project at college, and decided to take the idea and convert it into a reality.</p>
-					<!--- <a href="#" class="btm btn-outline-secondary">See the Profile</a> -->
 				</div>
 			</div>
 		</div>
@@ -198,8 +203,10 @@
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-12">
+			<!--- This part contains all the links to the social media pages StudySesh is going to have -->
 			<h2>Connect</h2>
 		<div class="col-12 social padding">
+			<!--- When lauched all this buttons should be activated -->
 			<a href="#"><i class="fab fa-facebook"></i></a>
 			<a href="#"><i class="fab fa-twitter"></i></a>
 			<a href="#"><i class="fab fa-google-plus-g"></i></a>
@@ -208,14 +215,15 @@
 		</div>
 		</div>
 	</div>
-
 </div>
 
 <!--- Footer -->
 <footer>
+	<!--- The footer contains useful information about the website such as contact information -->
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-md-4">
+				<!--- Added my personal data so that clients can contact me -->
 				<img src="img/logo5.png">
 				<hr class="light">
 				<p>estebanlanzav@gmail.com</p>
@@ -223,6 +231,7 @@
 				<p>Hedge End, Southampton</p>
 			</div>
 			<div class="col-md-4">
+				<!--- Added personal information in order to present myself as another fellow student -->
 				<hr class="light">
 				<h5>Studying:</h5>
 				<hr class="light">
@@ -231,6 +240,8 @@
 				<p>Computer Science</p>
 			</div>
 			<div class="col-md-4">
+				<!--- This are the hours im usually free on -->
+				<!--- I did this so that people know when they may contact me -->
 				<hr class="light">
 				<h5>Working Hours</h5>
 				<hr class="light">
@@ -240,7 +251,6 @@
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<!---<h5>&copy; w3newbie.com</h5>-->
 			</div>
 		</div>
 	</div>
